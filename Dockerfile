@@ -9,5 +9,5 @@ COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
 
 COPY entrypoint.sh /
 RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+CMD ["/entrypoint.sh"]
  
